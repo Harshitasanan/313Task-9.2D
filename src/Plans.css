@@ -1,0 +1,90 @@
+.custom-card-header {
+    position: relative;
+    text-align: center;
+  }
+  .custom-card-header1 {
+    position: relative;
+    text-align: center;
+  }
+  
+  .custom-card-header::before {
+    content: '';
+    position: absolute;
+    background: #5551ff;
+    top: -8px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 8px;
+    border-radius: 6px 6px 0 0;
+  }
+  .custom-card-header1::before {
+    content: '';
+    position: absolute;
+    background-color: #57c9e1;
+    top: -8px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: 8px;
+    border-radius: 6px 6px 0 0;
+  }
+/* Button.css */
+.custom-button1 {
+  color: #FFFFFF;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 14px 24px 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  border: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: -webkit-transform 200ms, background 200ms;
+  transition: transform 200ms, background 200ms;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  width: 100%;
+  background-color: #57c9e1;
+  cursor: pointer;
+}
+.word-art-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(to right, #ff4a4a, #1f48e6, #2ce7e6);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  margin-bottom: 5%;
+}
+
+.custom-button {
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    border: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: -webkit-transform 200ms, background 200ms;
+    transition: transform 200ms, background 200ms;
+    text-align: center;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    background: #5551ff;
+    cursor: pointer;
+  }
+
+
+      

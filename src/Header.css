@@ -1,0 +1,44 @@
+.navbar {
+    background-color: grey;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-item {
+    margin: 0 10px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+.ui.input{
+  width: 200%; 
+}
+.space{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto; 
+  padding: 20px 0; 
+}
+
+
+
+.navbar-logo-text {
+  margin-top: 5px; 
+  text-align: center;
+  font-size: 14px;
+}
+

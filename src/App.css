@@ -1,0 +1,49 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20px; */
+  margin-top: 20px;
+}
+.image-container {
+  position: relative;
+  /* width: 100%; */
+}
+
+.navbar-logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+}
+
+.center-text {
+  text-align: center;
+  margin: 40px; 
+}
+
+
+
+
